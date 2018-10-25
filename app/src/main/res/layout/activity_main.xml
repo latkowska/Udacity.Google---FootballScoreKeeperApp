@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.scorekeeper.MainActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ball" />
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/first_team"
+                        style="@style/TeamStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:hint="@string/hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:textColorHint="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/team_a_score"
+                        style="@style/Points"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pointsTA" />
+
+                    <TextView
+                        style="@style/YellowCardsTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yellowCards" />
+
+                    <TextView
+                        android:id="@+id/team_a_yellow_cards"
+                        style="@style/YellowCardsQuantityStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yellowCardsQuantityTA" />
+
+                    <TextView
+                        style="@style/RedCardsTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/redCards" />
+
+                    <TextView
+                        android:id="@+id/team_a_red_cards"
+                        style="@style/RedCardsQuantityStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/redCardsQuantityTA" />
+
+                    <Button
+                        style="@style/goalButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addOnePointsForTeamA"
+                        android:text="@string/goalButton" />
+
+                    <Button
+                        style="@style/addYcardStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addYellowCardForTeamA"
+                        android:text="@string/addYcardButton" />
+
+                    <Button
+                        style="@style/addRcardButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addRedCardForTeamA"
+                        android:text="@string/addRcardButton" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/second_team"
+                        style="@style/TeamStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:hint="@string/hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:textColorHint="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/team_b_score"
+                        style="@style/Points"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pointsTB" />
+
+                    <TextView
+                        style="@style/YellowCardsTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yellowCards" />
+
+                    <TextView
+                        android:id="@+id/team_b_yellow_cards"
+                        style="@style/YellowCardsQuantityStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yellowCardsQuantityTB" />
+
+                    <TextView
+                        style="@style/RedCardsTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/redCards" />
+
+                    <TextView
+                        android:id="@+id/team_b_red_cards"
+                        style="@style/RedCardsQuantityStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/redCardsQuantityTB" />
+
+                    <Button
+                        style="@style/goalButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addOnePointsForTeamB"
+                        android:text="@string/goalButton" />
+
+                    <Button
+                        style="@style/addYcardStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addYellowCardForTeamB"
+                        android:text="@string/addYcardButton" />
+
+                    <Button
+                        style="@style/addRcardButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="addRedCardForTeamB"
+                        android:text="@string/addRcardButton" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                style="@style/resetButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="resetButton"
+                android:text="@string/resetButton" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

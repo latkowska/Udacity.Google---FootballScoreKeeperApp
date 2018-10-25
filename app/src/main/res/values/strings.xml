@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="hint"><i>Enter team name</i></string>
+    <string name="pointsTA">0</string>
+    <string name="pointsTB">0</string>
+    <string name="yellowCards">Yellow cards:</string>
+    <string name="yellowCardsQuantityTA">0</string>
+    <string name="yellowCardsQuantityTB">0</string>
+    <string name="redCards">Red cards:</string>
+    <string name="redCardsQuantityTA">0</string>
+    <string name="redCardsQuantityTB">0</string>
+    <string name="goalButton">GOAL!</string>
+    <string name="addYcardButton">Add Yellow card</string>
+    <string name="addRcardButton">Add red card</string>
+    <string name="resetButton">Reset score</string>
+</resources>

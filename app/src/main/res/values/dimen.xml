@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="teamPadding">8dp</dimen>
+    <dimen name="yellowCardsPadding">6dp</dimen>
+    <dimen name="redCardsPadding">6dp</dimen>
+    <dimen name="goalButtonMargin">8dp</dimen>
+    <dimen name="addYcardButtonMargin">8dp</dimen>
+    <dimen name="addRcardButtonMargin">8dp</dimen>
+    <dimen name="resetButtonMargin">8dp</dimen>
+    <dimen name="redCardsQuantityFieldMargin">20dp</dimen>
+    <dimen name="teamNameFieldMargin">20dp</dimen>
+</resources>

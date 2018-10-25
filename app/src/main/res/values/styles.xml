@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Team style-->
+    <style name="TeamStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/teamPadding</item>
+        <item name="android:layout_marginBottom">@dimen/teamNameFieldMargin</item>
+    </style>
+
+    <!--Points style-->
+    <style name="Points">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <!--Yellow cards text style-->
+    <style name="YellowCardsTextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/yellowCardsPadding</item>
+    </style>
+
+    <!--Yellow cards quantity style-->
+    <style name="YellowCardsQuantityStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Red cards text style-->
+    <style name="RedCardsTextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/redCardsPadding</item>
+    </style>
+
+    <!--Red cards quantity style-->
+    <style name="RedCardsQuantityStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/redCardsQuantityFieldMargin</item>
+    </style>
+
+    <!--Button GOAL style-->
+    <style name="goalButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">@dimen/goalButtonMargin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--Button ADD YELLOW CARD style-->
+    <style name="addYcardStyle">
+        <item name="android:layout_margin">@dimen/addYcardButtonMargin</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--Button ADD YELLOW CARD style-->
+    <style name="addRcardButtonStyle">
+        <item name="android:layout_margin">@dimen/addRcardButtonMargin</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--Button RESET style-->
+    <style name="resetButtonStyle">
+        <item name="android:layout_margin">@dimen/resetButtonMargin</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
