@@ -15,6 +15,11 @@
         <item name="android:textStyle">bold</item>
         <item name="android:padding">@dimen/teamPadding</item>
         <item name="android:layout_marginBottom">@dimen/teamNameFieldMargin</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">13</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
     </style>
 
     <!--Points style-->

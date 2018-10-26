@@ -40,12 +40,7 @@
                         style="@style/TeamStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:cursorVisible="false"
-                        android:hint="@string/hint"
-                        android:imeOptions="actionDone"
-                        android:inputType="text"
-                        android:maxLength="13"
-                        android:textColorHint="@color/colorWhite" />
+                        android:hint="@string/hint" />
 
                     <TextView
                         android:id="@+id/team_a_score"
@@ -115,12 +110,7 @@
                         style="@style/TeamStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:cursorVisible="false"
-                        android:hint="@string/hint"
-                        android:imeOptions="actionDone"
-                        android:inputType="text"
-                        android:maxLength="13"
-                        android:textColorHint="@color/colorWhite" />
+                        android:hint="@string/hint" />
 
                     <TextView
                         android:id="@+id/team_b_score"
